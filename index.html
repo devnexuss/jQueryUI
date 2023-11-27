@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Mobile: Theme Download</title>
+	<link rel="stylesheet" href="themes/myTheme.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="style.css"/>
+	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+	<div class="parent">
+        <!-- Interactions page -->
+        <div class="pg" data-role="page" id="interactions">
+            <header data-role="header">
+                <h1>jQuery UI</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#interactions" data-icon="user" data-theme="a">Interactions</a></li>
+                        <li><a href="#widgets" data-icon="cloud" data-theme="a">Widgets</a></li>
+                        <li><a href="#effects" data-icon="info" data-theme="a">Effects</a></li>
+                    </ul>
+                </div>
+            </header>
+            <section class="ui-content" role="main">
+                <h2>Interactions</h2>
+                <h3>This page demonstrates different types of interactions using jQuery UI.</h3>
+                <div id="draggable-container">
+                    <div id="draggable" class="ui-widget-content">
+                        <p>I am draggable</p>
+                    </div>
+                </div>
+                <h4>Draggable</h4>
+                <p>The draggable interaction enables elements to be easily dragged</p>
+                <p>across the page, providing an interactive user experience.</p>
+
+                <div id="droppable-container">
+                    <div id="draggable2" class="ui-widget-content">
+                        <p>Drag me</p>
+                    </div>
+                       
+                    <div id="droppable" class="ui-widget-header">
+                        <p>Drop here</p>
+                    </div>
+                </div>
+                <h4>Droppable</h4>
+                <p>The droppable interaction defines an area where elements</p>
+                <p>be dropped, facilitating drag-and-drop functionality.</p>
+
+                <div id="resizable-container">
+                    <div id="resizable" class="ui-state-active">
+                        <p>Resize me</p>
+                    </div>
+                  </div>
+                <h4>Resizable</h4>
+                <p>The resizable interaction allows users to resize elements dynamically.</p>
+
+                <div id="selectable-container">
+                    <ol id="selectable" class="ui-widget-content">
+                        <li class="ui-state-default">a</li>
+                        <li class="ui-state-default">b</li>
+                        <li class="ui-state-default">c</li>
+                        <li class="ui-state-default">d</li>
+                        <li class="ui-state-default">e</li>
+                        <li class="ui-state-default">f</li>
+                        <li class="ui-state-default">g</li>
+                        <li class="ui-state-default">h</li>
+                        <li class="ui-state-default">i</li>
+                        <li class="ui-state-default">j</li>
+                        <li class="ui-state-default">k</li>
+                        <li class="ui-state-default">l</li>
+                    </ol>
+                </div>
+                <h4>Selectable</h4>
+                <p>The selectable interaction allows the selection of elements using the mouse.</p>
+            </section>
+            <footer data-role="footer"><h4>&copy; 2023</h4></footer>
+        </div>
+
+        <!-- Widgets page -->
+        <div class="pg" data-role="page" id="widgets">
+            <header data-role="header">
+                <h1>jQuery UI</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#interactions" data-icon="user" data-theme="a">Interactions</a></li>
+                        <li><a href="#widgets" data-icon="cloud" data-theme="a">Widgets</a></li>
+                        <li><a href="#effects" data-icon="info" data-theme="a">Effects</a></li>
+                    </ul>
+                </div>
+            </header>
+            <section class="ui-content" role="main">
+                <h2>Widgets</h2>
+                <h3>This page demonstrates different types of Widgets using jQuery UI.</h3>
+                <div id="accordion-container">
+                    <div id="accordion" class="ui-widget-content">
+                        <h2>Section 1</h2>
+                        <div>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed odio cursus, cursus nunc cursus, 
+                            pulvinar magna. Aliquam eget eros felis. Sed lobortis accumsan luctus.
+                            </p>
+                        </div>
+                        <h2>Section 2</h2>
+                        <div>
+                            <p>
+                            Praesent id lorem in massa tincidunt scelerisque pellentesque quis nisl. Etiam quis libero a nisl fermentum
+                            ultricies. Cras a iaculis mauris. Donec quis auctor ante. Proin efficitur dolor quis nulla aliquam, at iaculis dui placerat. 
+                            </p>
+                        </div>
+                        <h2>Section 3</h2>
+                        <div>
+                            <p>
+                            Ut lacus neque, placerat et erat id, pellentesque condimentum dolor. Phasellus hendrerit bibendum ex vel vulputate. 
+                            Suspendisse eu purus velit. Nulla et interdum turpis. Nam rhoncus tempus turpis eget aliquet. Aliquam blandit quis sem ac varius. 
+                            </p>
+                        </div>
+                        <h2>Section 4</h2>
+                        <div>
+                            <p>
+                            Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est.
+                            </p>
+                            <p>
+                            Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                            inceptos himenaeos.
+                            </p>
+                        </div> 
+                    </div>
+                </div>
+                <h4>Accordion</h4>
+                <p>The accordion widget creates a vertically stacked set</p>
+                <p>content panels, allowing only one panel to be active at a time.</p>
+                <div id="autocomplete-container">
+                    <div id="autocomplete" class="ui-widget">
+                        <label for="tags">Search Fruits: </label>
+                        <input id="tags">
+                    </div>
+                </div>
+                <h4>Autocomplete</h4>
+                <p>The autocomplete widget provides suggestions while typing into an input field.</p>
+                <div id="datepicker-container">
+                    <div class="ui-widget">
+                        <label for="datepicker">Please select a date: </label>
+                        <input id="datepicker">
+                    </div>
+                </div>
+                <h4>Datepicker</h4>
+                <p>The datepicker widget enables users to select dates from a calendar, improving the</p>
+                <p>experience when dealing with date-related input.</p>
+                <div id="slider-container">
+                    <p>
+                        <label for="amount">Price range:</label>
+                        <input type="text" id="amount" readonly>
+                      </p>
+                      <div id="slider-range"></div>
+                </div>
+                <h4>Slider</h4>
+                <p>The slider widget allows the user to select a value by sliding a handle along a track.</p>
+                <a href="#interactions"  class="back-button" data-role="button" data-rel="back" data-icon="back" data-theme="a">Back to the previous page</a>
+            </section>
+            <footer data-role="footer"><h4>&copy; 2023</h4></footer>
+        </div>
+
+        <!-- Effects page -->
+        <div class="pg" data-role="page" id="effects">
+            <header data-role="header">
+                <h1>jQuery UI</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#interactions" data-icon="user" data-theme="a">Interactions</a></li>
+                        <li><a href="#widgets" data-icon="cloud" data-theme="a">Widgets</a></li>
+                        <li><a href="#effects" data-icon="info" data-theme="a">Effects</a></li>
+                    </ul>
+                </div>
+          </header>
+          <section class="ui-content" role="main">
+            <h2>Effects</h2>
+                <h3>This page demonstrates different types of Effects using jQuery UI.</h3>
+            <div id="showhide-container">
+                <button id="showButton">Show Element</button>
+                <button id="hideButton">Hide Element</button>
+        
+                <h2 id="myElement">Peekaboo!</h2>
+            </div>
+            <h4>Show & Hide</h4>
+            <p>The show & hide effect allows the showing and hiding of elements using custom effects.</p>
+            <div id="explode-container">
+                <button id="explodeButton">Explode Element</button>
+                <div id="explode" class="ui-widget-content">
+                    <p>I am the exploding element</p>
+                </div>
+            </div>
+            <h4>Explode</h4>
+            <p>The explode effect applies explode animation to</p>
+            <p>element, providing an attention-catching visual effect.</p>
+            <div id="fade-container">
+                <button id="fadeInButton">Fade In</button>
+                <button id="fadeOutButton">Fade Out</button>
+                <div id="fadeElement" class="ui-widget-content">
+                    <p>I am the fading element</p>
+                </div>
+            </div>
+            <h4>Fade In & Fade Out</h4>
+            <p>The fade effect allows smooth transitions for elements, creating</p>
+            <p>visually appealing fade-in and fade-out effects.</p>
+            <div id="color-container">
+                <button id="animateColorButton">Animate Color</button>
+                <div id="colorElement" class="ui-widget-content">
+                    <p>I am the color-changing element</p>
+                </div>
+            </div>
+            <h4>Color animation</h4>
+            <p>The color animation effect animate the properties of elements between colors.</p>
+            <a href="#widgets" class="back-button" data-role="button" data-rel="back" data-icon="back" data-theme="a">Back to the previous page</a>
+        </section>
+        <footer data-role="footer"><h4>&copy; 2023</h4></footer>
+    </div>
+</body>
+</html>

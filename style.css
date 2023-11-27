@@ -1,0 +1,254 @@
+.ui-content {
+    text-align: center;
+}
+
+.ui-content h3 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#draggable-container {
+    width: 500px; 
+    height: 300px; 
+    position: relative;
+    margin: 0 auto; 
+    border: 2px solid #806f6f; 
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+#draggable {
+    width: 150px;
+    height: 100px;
+    padding: 0.5em; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+#droppable-container {
+    width: 500px; 
+    height: 300px; 
+    position: relative;
+    margin: 0 auto; 
+    border: 2px solid #806f6f; 
+    padding: 10px; 
+    box-sizing: border-box;
+    margin-top: 50px; 
+}
+
+#draggable2 {
+    width: 100px;
+    height: 100px;
+    padding: 0.5em;
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+
+#droppable { 
+    width: 150px;
+    height: 150px;
+    padding: 0.5em;
+    float: left; 
+    margin: 10px;
+}
+
+#resizable-container {
+    width: 500px; 
+    height: 300px; 
+    position: relative;
+    margin: 0 auto; 
+    border: 2px solid #806f6f; 
+    padding: 10px; 
+    box-sizing: border-box;
+    margin-top: 50px; 
+}
+
+#resizable {
+    background-position: top left;
+    width: 150px; 
+    height: 150px; 
+}
+
+#selectable-container {
+    width: 500px; 
+    height: 300px; 
+    position: relative;
+    margin: 0 auto; 
+    border: 2px solid #806f6f; 
+    padding: 10px; 
+    box-sizing: border-box;
+    margin-top: 50px; 
+}
+
+#feedback {
+    font-size: 1.4em; 
+}
+
+#selectable .ui-selecting {
+    background: #FECA40; 
+}
+
+#selectable .ui-selected {
+    background: #F39814; 
+    color: white; 
+}
+
+#selectable {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+#selectable li {
+    margin: 3px;
+    padding: 1px; 
+    box-sizing: border-box;
+    width: calc(25% - 6px); 
+    height: calc(33.33% - 6px); 
+    font-size: 4em; 
+    text-align: center; 
+    cursor: pointer;
+}
+
+#accordion-container {
+    width: 500px; 
+    height: 100%; 
+    position: relative;
+    margin: 0 auto; 
+    border: 2px solid #806f6f; 
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+#autocomplete-container {
+    width: 500px; 
+    height: 100%; 
+    position: relative;
+    margin: 0 auto; 
+    border: 2px solid #806f6f; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    margin-top: 50px; 
+}
+
+.ui-widget label {
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+#datepicker-container {
+    width: 500px; 
+    height: 100%; 
+    position: relative;
+    margin: 0 auto; 
+    border: 2px solid #806f6f; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    margin-top: 50px; 
+}
+
+#slider-container {
+    width: 500px; 
+    height: 100%; 
+    position: relative;
+    margin: 0 auto; 
+    border: 2px solid #806f6f; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    margin-top: 50px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#slider-range {
+    width: 80%; 
+    margin: 0 auto; 
+    height: 10px;
+}
+
+#amount {
+    border: 0;
+    color: #b1762cb5;
+    font-weight: bold;
+}
+
+.back-button {
+    margin-top: 50px;
+}
+
+#showhide-container {
+    width: 500px; 
+    height: 300px;
+    position: relative;
+    margin: 0 auto; 
+    border: 2px solid #806f6f; 
+    padding: 10px; 
+    box-sizing: border-box;
+    margin-top: 50px; 
+}
+
+#myElement {
+    display: none;
+    width: 200px;
+    height: 100px;
+    background-color: #6c491db5;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+#explode-container {
+    width: 500px; 
+    height: 100%;
+    position: relative;
+    margin: 0 auto; 
+    border: 2px solid #806f6f; 
+    padding: 10px; 
+    box-sizing: border-box;
+    margin-top: 50px; 
+}
+
+#explode {
+    border-radius: 10px; 
+}
+
+#fade-container {
+    width: 500px; 
+    height: 100%;
+    position: relative;
+    margin: 0 auto; 
+    border: 2px solid #806f6f; 
+    padding: 10px; 
+    box-sizing: border-box;
+    margin-top: 50px; 
+}
+
+#fadeElement {
+    border-radius: 10px; 
+    display: none; 
+}
+
+#color-container {
+    width: 500px; 
+    height: 100%;
+    position: relative;
+    margin: 0 auto; 
+    border: 2px solid #806f6f; 
+    padding: 10px; 
+    box-sizing: border-box;
+    margin-top: 50px; 
+}
+
+#colorElement {
+    border-radius: 10px; 
+    background-color: #93818182; 
+    color: whitesmoke;
+}
+
